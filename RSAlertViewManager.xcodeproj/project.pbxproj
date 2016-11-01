@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4B7B99B1DC8760900C7FF5E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A4B7B99A1DC8760900C7FF5E /* LICENSE */; };
+		A4E06BD51D6FF0A200470149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E06BD41D6FF0A200470149 /* main.m */; };
+		A4E06BD81D6FF0A200470149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E06BD71D6FF0A200470149 /* AppDelegate.m */; };
+		A4E06BDB1D6FF0A200470149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E06BDA1D6FF0A200470149 /* ViewController.m */; };
+		A4E06BDE1D6FF0A200470149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E06BDC1D6FF0A200470149 /* Main.storyboard */; };
+		A4E06BE01D6FF0A200470149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E06BDF1D6FF0A200470149 /* Assets.xcassets */; };
+		A4E06BE31D6FF0A200470149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E06BE11D6FF0A200470149 /* LaunchScreen.storyboard */; };
+		A4E06BED1D6FF0DC00470149 /* RSAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E06BEC1D6FF0DC00470149 /* RSAlertViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4B7B99A1DC8760900C7FF5E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4E06BD01D6FF0A200470149 /* RSAlertViewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAlertViewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E06BD41D6FF0A200470149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4E06BD61D6FF0A200470149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4E06BD71D6FF0A200470149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4E06BD91D6FF0A200470149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4E06BDA1D6FF0A200470149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4E06BDD1D6FF0A200470149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4E06BDF1D6FF0A200470149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E06BE21D6FF0A200470149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4E06BE41D6FF0A200470149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E06BEB1D6FF0DC00470149 /* RSAlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAlertViewManager.h; sourceTree = "<group>"; };
+		A4E06BEC1D6FF0DC00470149 /* RSAlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAlertViewManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E06BCD1D6FF0A200470149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E06BC71D6FF0A200470149 = {
+			isa = PBXGroup;
+			children = (
+				A4E06BD21D6FF0A200470149 /* RSAlertViewManager */,
+				A4E06BD11D6FF0A200470149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E06BD11D6FF0A200470149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E06BD01D6FF0A200470149 /* RSAlertViewManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E06BD21D6FF0A200470149 /* RSAlertViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7B99A1DC8760900C7FF5E /* LICENSE */,
+				A4E06BEA1D6FF0CB00470149 /* RSAlertViewManager */,
+				A4E06BD61D6FF0A200470149 /* AppDelegate.h */,
+				A4E06BD71D6FF0A200470149 /* AppDelegate.m */,
+				A4E06BD91D6FF0A200470149 /* ViewController.h */,
+				A4E06BDA1D6FF0A200470149 /* ViewController.m */,
+				A4E06BDC1D6FF0A200470149 /* Main.storyboard */,
+				A4E06BDF1D6FF0A200470149 /* Assets.xcassets */,
+				A4E06BE11D6FF0A200470149 /* LaunchScreen.storyboard */,
+				A4E06BE41D6FF0A200470149 /* Info.plist */,
+				A4E06BD31D6FF0A200470149 /* Supporting Files */,
+			);
+			path = RSAlertViewManager;
+			sourceTree = "<group>";
+		};
+		A4E06BD31D6FF0A200470149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E06BD41D6FF0A200470149 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4E06BEA1D6FF0CB00470149 /* RSAlertViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4E06BEB1D6FF0DC00470149 /* RSAlertViewManager.h */,
+				A4E06BEC1D6FF0DC00470149 /* RSAlertViewManager.m */,
+			);
+			path = RSAlertViewManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E06BCF1D6FF0A200470149 /* RSAlertViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E06BE71D6FF0A200470149 /* Build configuration list for PBXNativeTarget "RSAlertViewManager" */;
+			buildPhases = (
+				A4E06BCC1D6FF0A200470149 /* Sources */,
+				A4E06BCD1D6FF0A200470149 /* Frameworks */,
+				A4E06BCE1D6FF0A200470149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSAlertViewManager;
+			productName = RSAlertViewManager;
+			productReference = A4E06BD01D6FF0A200470149 /* RSAlertViewManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E06BC81D6FF0A200470149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Thinkjoy_RS;
+				TargetAttributes = {
+					A4E06BCF1D6FF0A200470149 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 25DXZL4PYE;
+					};
+				};
+			};
+			buildConfigurationList = A4E06BCB1D6FF0A200470149 /* Build configuration list for PBXProject "RSAlertViewManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E06BC71D6FF0A200470149;
+			productRefGroup = A4E06BD11D6FF0A200470149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E06BCF1D6FF0A200470149 /* RSAlertViewManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E06BCE1D6FF0A200470149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E06BE31D6FF0A200470149 /* LaunchScreen.storyboard in Resources */,
+				A4E06BE01D6FF0A200470149 /* Assets.xcassets in Resources */,
+				A4B7B99B1DC8760900C7FF5E /* LICENSE in Resources */,
+				A4E06BDE1D6FF0A200470149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E06BCC1D6FF0A200470149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E06BDB1D6FF0A200470149 /* ViewController.m in Sources */,
+				A4E06BD81D6FF0A200470149 /* AppDelegate.m in Sources */,
+				A4E06BED1D6FF0DC00470149 /* RSAlertViewManager.m in Sources */,
+				A4E06BD51D6FF0A200470149 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4E06BDC1D6FF0A200470149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E06BDD1D6FF0A200470149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E06BE11D6FF0A200470149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E06BE21D6FF0A200470149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E06BE51D6FF0A200470149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4E06BE61D6FF0A200470149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E06BE81D6FF0A200470149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSAlertViewManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkjoy.RSAlertViewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4E06BE91D6FF0A200470149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSAlertViewManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkjoy.RSAlertViewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E06BCB1D6FF0A200470149 /* Build configuration list for PBXProject "RSAlertViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E06BE51D6FF0A200470149 /* Debug */,
+				A4E06BE61D6FF0A200470149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E06BE71D6FF0A200470149 /* Build configuration list for PBXNativeTarget "RSAlertViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E06BE81D6FF0A200470149 /* Debug */,
+				A4E06BE91D6FF0A200470149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E06BC81D6FF0A200470149 /* Project object */;
+}
